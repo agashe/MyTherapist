@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+/* ********************************** */
+
+
+/* ********************************** */
+header {
+    min-height: 100px;
+    font-size: 0.9em;
+    border-bottom: 1px solid darkslateblue;
+}
+
+.top-nav {
+    height: 25px;
+    background-color: darkslateblue;
+    color: white;
+}
+.top-nav a {
+    margin-right: 5px;
+    color: white;
+}
+
+.bottom-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 9px 1px;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+.active {
+    text-decoration: underline;
+}
+
+/* ********************************** */
+aside {
+    min-height: 500px;
+    padding: 20px;
+}
+
+aside .card-header span {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ********************************** */
+.content {
+    min-height: 530px;
+    padding: 25px;
+}
+
+.search-box {
+    background-image: url('../image/batthern.png');
+    min-height: 150px;
+    padding: 35px;
+    color: white;
+}
+.search-box input[type="text"] {
+    height: 35px;
+    width: 550px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.content .card .card-body img {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border: 3px solid darkslateblue;
+    border-radius: 100px;
+}
+.content .card .card-body .fa-star {
+    color: gold;
+}
+.content .card .bio {
+    height: 70px;
+}
+
+/* ********************************** */
+footer {
+    height: 300px;
+}
+
+.footer-body {
+    height: 270px;
+    border-top: 1px solid darkslateblue;
+}
+.footer-body ul {
+    list-style: none;
+}
+.footer-body a , .footer-body article {
+    color: white;
+}
+
+.social {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.copyrights {
+    background-color: darkslateblue;
+    color: white;
+}
